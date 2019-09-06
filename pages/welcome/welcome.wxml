@@ -1,0 +1,9 @@
+<view class='welcome-container'>
+  <image class="welcome-user-avatar"src='../../images/avatar/6.png'></image>
+  
+  <text class='welcome-user-name'>Dragon</text>
+ 
+  <view class='welcometext-container' bindtap="bindTapName">
+    <text class='welcometext'  >Open Mini Program</text>
+  </view>
+</view>

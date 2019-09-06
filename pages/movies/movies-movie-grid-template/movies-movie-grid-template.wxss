@@ -1,0 +1,9 @@
+@import "../movies-movie-template/movies-movie-template.wxss";
+.grid-container{
+  display: flex;
+  flex-direction: column;
+}
+.list-container{
+  display: flex;
+  flex-direction: row;
+}

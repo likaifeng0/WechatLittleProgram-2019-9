@@ -1,0 +1,23 @@
+<import src="../movies-movie-template/movies-movie-template.wxml" />
+<template name="movieGridTemplate">
+  <view class='grid-container'>
+    <view class='list-container'>
+      <template is="movieTemplate" />
+      <template is="movieTemplate" />
+      <template is="movieTemplate" />
+    </view>
+
+    <view class='list-container'>
+      <template is="movieTemplate" />
+      <template is="movieTemplate" />
+      <template is="movieTemplate" />
+    </view>
+
+    <view class='list-container'>
+      <template is="movieTemplate" />
+      <template is="movieTemplate" />
+      <template is="movieTemplate" />
+    </view>
+
+  </view>
+</template>
